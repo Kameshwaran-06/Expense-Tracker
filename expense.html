@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income and Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/png;base64,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">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Income and Expense Tracker</h1>
+        
+        <!-- Income and Expense Section -->
+        <div class="form-section">
+            <h2>Income</h2>
+            <div class="form">
+                <input type="text" id="income-description" placeholder="Description">
+                <input type="number" id="income-amount" placeholder="Amount">
+                <input type="date" id="income-date">
+                <select id="income-category">
+                    <option value="">Select Category</option>
+                    <option value="Salary">Salary</option>
+                    <option value="Freelance">Freelance</option>
+                    <option value="Other">Other</option>
+                </select>
+                <button id="add-income-btn">Add Income</button>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Expense</h2>
+            <div class="form">
+                <input type="text" id="expense-description" placeholder="Description">
+                <input type="number" id="expense-amount" placeholder="Amount">
+                <input type="date" id="expense-date">
+                <select id="expense-category">
+                    <option value="">Select Category</option>
+                    <option value="Food">Food</option>
+                    <option value="Transportation">Transportation</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Other">Other</option>
+                </select>
+                <button id="add-expense-btn">Add Expense</button>
+            </div>
+        </div>
+
+        <!-- Transaction Table -->
+        <div class="transactions">
+            <h3>Transactions</h3>
+            <table id="transactions-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Category</th>
+                        <th>Amount</th>
+                        <th>Type</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <!-- Summary -->
+        <div class="summary">
+            <h3>Summary</h3>
+            <p>Total Income: <span id="total-income">0</span></p>
+            <p>Total Expenses: <span id="total-expenses">0</span></p>
+            <p>Net Income: <span id="net-income">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

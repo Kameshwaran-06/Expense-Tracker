@@ -1,0 +1,93 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form sections */
+.form-section {
+    margin-bottom: 30px;
+}
+
+.form-section h2 {
+    margin-bottom: 10px;
+}
+
+/* Form inputs and buttons */
+.form input,
+.form select,
+.form button {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.form button {
+    width: auto;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.form button:hover {
+    background-color: #218838;
+}
+
+/* Transactions table */
+.transactions table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.transactions th, .transactions td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.transactions th {
+    background-color: #f2f2f2;
+}
+
+.transactions tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Summary section */
+.summary {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form input,
+    .form select,
+    .form button {
+        width: 100%;
+    }
+
+    .transactions table {
+        font-size: 14px;
+    }
+}
