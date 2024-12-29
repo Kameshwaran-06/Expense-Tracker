@@ -39,7 +39,7 @@ After adding a transaction:
 The Transaction List will update, showing the new transaction.
 The Total Income, Total Expenses, and Remaining Balance will be updated in real-time.
 
-4. Viewing Transactions
+ Viewing Transactions
    
 Once you add a transaction, it will appear in the Transaction List, displaying:
 Description: The name or type of the transaction (e.g., "Salary", "Groceries").
@@ -50,13 +50,13 @@ Total Income: The total amount of income recorded.
 Total Expenses: The total amount of expenses recorded.
 Remaining Balance: The difference between total income and total expenses.
 
-7. Deleting a Transaction
+ Deleting a Transaction
    
 Next to each transaction in the Transaction List, there is a Delete button.
 To remove a transaction, simply click the Delete button next to the corresponding transaction.
 The deleted transaction will be removed from the list, and the totals (total income, total expenses, and remaining balance) will update automatically.
 
-9. Examples
+ Examples
     
 Example 1: Adding Income:
 Type: Income
@@ -73,7 +73,7 @@ Click Add Transaction. Your total expenses will update to 50, and the remaining 
 Example 3: Deleting a transaction:
 Click the Delete button next to an expense, and that amount will be removed from both the expense list and the total.
 
-11. Transaction List and Summary Section
+ Transaction List and Summary Section
     
 The Transaction List will show all your income and expense records in a table format with columns for description, amount, and category.
 The Summary Section will update as you add or delete transactions:
